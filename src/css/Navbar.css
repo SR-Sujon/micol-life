@@ -1,0 +1,100 @@
+.navbar {
+    display: flex;
+    justify-content: space-between; /* Space between brand, search, links, and auth */
+    align-items: center;
+    background-color: #f8f8f8; /* Light background for the navbar */
+    margin-top: -2.5rem;
+    padding: 20px 40px; /* Padding for top/bottom and left/right */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    z-index: 1000;
+    position:fixed;
+    width: 100%;
+  }
+  
+  .navbar-brand h1 {
+    font-size: 24px; /* Size of the brand name */
+    color: #ff6f61; /* Primary color for brand */
+    margin: 0; /* No margin */
+  }
+  
+  .search-container {
+    flex-grow: 1; /* Allow the search bar to grow and take available space */
+    margin: 0 20px; /* Margin around the search bar */ /* Flexbox for search container */
+    justify-content: center; /* Center the search bar */
+  }
+  
+  .search-bar {
+    padding: 10px; /* Padding inside the search bar */
+    border: 1px solid #ccc; /* Border for search bar */
+    border-radius: 4px; /* Rounded corners */
+    width: 100%; /* Full width */
+    max-width: 300px; /* Max width for search bar */
+  }
+  
+  .product-dropdown {
+    margin-left: 20px; /* Space between dropdown and search bar */
+  }
+  
+  .product-select {
+    padding: 10px;
+    font-size: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    cursor: pointer;
+  }
+
+  .navbar-links {
+    list-style: none; 
+    display: flex; 
+    gap: 15px; 
+    margin-right: 3.5rem; 
+  }
+  
+  .navbar-links li {
+    display: inline; 
+  }
+  
+  .navbar-links a {
+    text-decoration: none; 
+    color: #333; 
+    font-weight: bold; 
+    transition: color 0.3s; 
+  }
+  
+  .navbar-links a:hover {
+    color: #ff6f61; 
+  }
+  
+  .auth-links {
+    display: flex; 
+    gap: 15px; 
+  }
+  
+  .auth-links a {
+    display: flex;
+    text-decoration: none; 
+    color: #333; 
+    font-weight: bold; 
+    margin-left: 2.5rem;
+  }
+  
+  .auth-links a:hover {
+    color: #ff6f61; 
+  }
+  
+  .signup {
+    color: #ff6f61; /* Different color for sign-up link */
+    border: 1px solid #ff6f61; /* Border for the sign-up link */
+    padding: 5px 10px; /* Padding for sign-up button */
+    border-radius: 4px; /* Rounded corners */
+    margin-right: 7.5rem;
+  }
+  
+  .logo {
+    width: 8rem; /* Adjust size as needed */
+    height: auto; /* Adjust size as needed */
+    margin-right: 10px; /* Space between logo and text */
+    vertical-align: middle; /* Align with text */
+  }
+  
