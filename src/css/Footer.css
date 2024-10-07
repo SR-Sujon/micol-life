@@ -1,0 +1,123 @@
+.footer {
+    background-color: #65b7dd;
+    color: #353535;
+    padding: 40px 0;
+    font-weight: 500;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .footer-section {
+    flex: 1;
+    margin: 10px;
+    min-width: 200px;
+  }
+  
+  .footer-section h3 {
+    color: #202020;
+    margin-bottom: 15px;
+  }
+  
+  .footer-section p,
+  .footer-section a {
+    color: #202020;
+    line-height: 1.6;
+  }
+  
+  .footer-section a:hover {
+    color: #ffae00;
+  }
+  
+  .footer-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-section ul li {
+    margin-bottom: 10px;
+  }
+  
+  .footer-section ul li a {
+    color: #202020;
+    text-decoration: none;
+  }
+  
+  .footer-section .tags a {
+    display: inline-block;
+    background-color: #444;
+    color: #aaa;
+    padding: 5px 10px;
+    margin: 5px;
+    text-decoration: none;
+    border-radius: 3px;
+  }
+  
+  .footer-section .tags a:hover {
+    background-color: #ffae00;
+    color: #fff;
+  }
+  
+  .footer-section .subscribe {
+    display: flex;
+    margin-top: 10px;
+  }
+  
+  .footer-section .subscribe input {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  .footer-section .subscribe button {
+    padding: 10px;
+    background-color: #ffae00;
+    border: none;
+    border-radius: 0 3px 3px 0;
+    cursor: pointer;
+  }
+  
+  .footer-section .social-icons a {
+    color: #202020;
+    margin-right: 15px;
+  }
+  
+  .footer-section .social-icons a:hover {
+    color: #ffae00;
+  }
+  
+  .footer-bottom {
+    border-top: 1px solid #444;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 20px auto 0;
+  }
+  
+  .footer-bottom p {
+    color: #202020;
+  }
+  
+  .footer-bottom .heart {
+    color: #ff0000;
+  }
+  
+  .footer-bottom .footer-links a {
+    color: #202020;
+    margin-right: 15px;
+  }
+  
+  .footer-bottom .footer-links a:hover {
+    color: #ffae00;
+  }
+  
