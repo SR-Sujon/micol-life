@@ -1,0 +1,98 @@
+.latest-news-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 15px;
+  }
+  
+  .news-header {
+    text-align: left;
+    margin-bottom: 30px;
+  }
+  
+  .news-header h2 {
+    font-size: 32px;
+    color: #000;
+  }
+  
+  .news-header p {
+    font-size: 16px;
+    font-weight: 500;
+    color: #666;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .view-all-btn {
+    background: linear-gradient(90deg, #ff7e29, #ffae2a);
+    border: none;
+    padding: 10px 25px;
+    color: #fff;
+    border-radius: 50px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15), 
+                0 8px 16px rgba(0, 0, 0, 0.1); /* Two layers of dark shadow */
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .view-all-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2), 
+                0 12px 24px rgba(0, 0, 0, 0.2); /* Stronger shadow on hover */
+  }
+  
+  
+  
+  .news-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .news-item {
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 
+                0 8px 16px rgba(0, 0, 0, 0.1); /* First shadow layer, second darker layer */
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .news-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15), 
+                0 12px 24px rgba(0, 0, 0, 0.15); /* Stronger shadow on hover */
+  }
+  
+  
+  .news-meta {
+    font-size: 14px;
+    color: #ffae2a;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .news-content {
+    font-size: 16px;
+    color: #333;
+    flex: 1;
+  }
+  
+  .news-link {
+    font-size: 24px;
+    color: #ff7e29;
+    margin-left: 15px;
+    cursor: pointer;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .news-link:hover {
+    color: #ffae2a; /* Change color on hover */
+  }
+  
+  

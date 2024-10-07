@@ -1,0 +1,128 @@
+/* ProductList.css */
+
+.product-list-container {
+    padding: 20px;
+}
+
+.page-heading {
+    font-size: 2em;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.carousel-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.product-carousel {
+    display: flex; /* Use flex to layout products in a row */
+    overflow: hidden; /* Hide overflow to ensure clean edges */
+    scroll-behavior: smooth; /* Smooth scrolling effect */
+    width: calc(100% - 100px); /* Adjust for the width of buttons */
+}
+
+.product-card {
+    min-width: 250px; /* Minimum width for product cards */
+    margin-right: 15px; /* Space between cards */
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    text-align: center;
+    transition: transform 0.2s ease;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+}
+
+.product-image {
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+    margin-bottom: 15px;
+}
+
+.product-info {
+    flex-grow: 1;
+}
+
+.product-title {
+    font-size: 1.1em;
+    color: #333;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.product-category,
+.product-brand,
+.product-stock {
+    font-size: 0.9em;
+    color: #666;
+    margin: 2px 0;
+}
+
+.add-to-cart-btn {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9em;
+    transition: background-color 0.3s ease;
+    margin-top: auto; /* Push the button to the bottom of the card */
+    margin-bottom: 10px; /* Fixed distance from the bottom edge of the card */
+}
+
+.add-to-cart-btn:hover {
+    background-color: #218838;
+}
+
+.add-to-cart-btn.disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.out-of-stock .add-to-cart-btn {
+    background-color: #f44336;
+    cursor: not-allowed;
+}
+
+.out-of-stock .product-stock {
+    color: #f44336;
+    font-weight: bold;
+}
+
+/* Carousel Button Styles */
+.carousel-button {
+    background-color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 2em;
+    color: #333;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
+    transition: background-color 0.3s;
+    border-radius: 50%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.carousel-button:hover {
+    background-color: #f0f0f0;
+}
+
+.carousel-button.left {
+    left: 10px;
+}
+
+.carousel-button.right {
+    right: 10px;
+}

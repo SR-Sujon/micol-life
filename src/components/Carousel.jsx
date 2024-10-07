@@ -7,7 +7,7 @@ const Carousel = () => {
 
   const items = [
     {
-      img: '../img/carousel/slider1.png',
+      img: '../img/carousel/slider3.png',
       author: 'SKIN CARE',
       title: 'RADIANT SKIN',
       topic: 'CONFIDENT YOU',
@@ -23,18 +23,18 @@ const Carousel = () => {
         '',
     },
     {
-      img: '../img/carousel/eagel1.jpg',
-      author: 'NOZAWA',
-      title: 'REST IN THE',
-      topic: 'HOT ONSEN',
+      img: '../img/carousel/Hair1.png',
+      author: 'HAIR CARE',
+      title: 'STRONG & SILKY HAIR',
+      topic: 'WITH PROPER CARE',
       description:
         '',
     },
     {
-      img: '../img/carousel/eagel1.jpg',
-      author: 'NOZAWA',
-      title: 'NEED GEARS FOR SKIING?',
-      topic: 'JUST VISIT OUR SKI RENTAL SHOPS',
+      img: '../img/carousel/slider5.jpeg',
+      author: 'GLOW',
+      title: 'LOOK MORE BEAUTIFUL',
+      topic: 'THAN EVER BEFORE',
       description:
         '',
     },
